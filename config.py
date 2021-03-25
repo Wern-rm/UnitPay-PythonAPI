@@ -13,3 +13,5 @@ class Config(object):
     SQLALCHEMY_ECHO = False
 
     SECRET_KEY = str(os.urandom(48))[2:-1].replace('\\x', '')
+
+    UNITPAY_SECRET_KEY = '00000000000000000000'
